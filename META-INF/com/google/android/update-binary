@@ -223,18 +223,19 @@ else
 fi;
 	print "Symlinking..."
 	ln -s /system/xbin/busybox /system/xbin/busybox_nh
-installapp "NetHunter App" "nethunter.apk" "com.offsec.nethunter"
-installapp "NetHunter Terminal" "Term-nh.apk" "com.offsec.nhterm"
-installapp "NetHunter VNC" "VNC-nh.apk" "com.offsec.nhvnc"
-installapp "cSploit" "cSploit.apk" "org.csploit.android"
-installapp "OpenVPN" "OpenVPN.apk" "de.blinkt.openvpn"
-installapp "Hacker's Keyboard" "Hackerskeyboard.apk" "org.pocketworkstation.pckeyboard"
-installapp "RF Analyzer" "RFAnalyzer.apk" "com.mantz_it.rfanalyzer"
-installapp "Shodan" "Shodan.apk" "io.shodan.app"
-installapp "USB Keyboard" "USBKeyboard.apk" "remote.hid.keyboard.client"
-installapp "Router Keygen" "RouterKeygen.apk" "io.github.routerkeygen"
-installapp "DriveDroid" "Drivedroid.apk" "com.softwarebakery.drivedroid"
 
+  pm install $dev/tmp/$modname/apps/BlueNMEA.apk
+  pm install $dev/tmp/$modname/apps/cSploit-release.apk
+  pm install $dev/tmp/$modname/apps/Drivedroid.apk
+  pm install $dev/tmp/$modname/apps/Hackerskeyboard.apk
+  pm install $dev/tmp/$modname/apps/nethunter.apk
+  pm install $dev/tmp/$modname/apps/OpenVPN.apk
+  pm install $dev/tmp/$modname/apps/RFAnalyzer.apk
+  pm install $dev/tmp/$modname/apps/RouterKeygen.apk
+  pm install $dev/tmp/$modname/apps/Shodan.apk
+  pm install $dev/tmp/$modname/apps/Term-nh.apk
+  pm install $dev/tmp/$modname/apps/USBKeyboard.apk
+  pm install $dev/tmp/$modname/apps/VNC-nh.apk
 set_progress 1.0;
 
 ui_print " ";
