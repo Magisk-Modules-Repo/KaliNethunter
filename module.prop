@@ -1,7 +1,7 @@
-id=template
-name=Template Module
-version=v1
-versionCode=1
-author=topjohnwu
-description=A short description
-minMagisk=1500
+id=KaliNethunter
+name=KaliNethunter
+version=v5
+versionCode=14
+author=madScript
+description=A module that install Kali Nethunter in any phone
+template=1500
