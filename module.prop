@@ -1,7 +1,7 @@
 id=KaliNethunter
 name=KaliNethunter
-version=v5
-versionCode=14
+version=v5.1
+versionCode=15
 author=XXH3X, dutchman, atarii
 description=A module that install Kali Nethunter in any phone
 template=1500
