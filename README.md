@@ -7,10 +7,12 @@ This module allows you to install the Kali Nethunter chroot systemlessly - see h
 * Install attached Magisk Module
 * Reboot device
 * Run Nethunter app - allow 7(!) Root-related permissions prompts and wait for initialisation
+* Download Chroot from here the [Full Chroot](https://build.nethunter.com/kalifs/kalifs-latest/kalifs-armhf-full.tar.xz) or the [Minimal Chroot](https://build.nethunter.com/kalifs/kalifs-latest/kalifs-armhf-minimal.tar.xz);
+* Put it in the path "/sdcard/" and rename it to kalifs-full/minimal.tar.xz
 * Click "Kali Chroot Manager"
-* Click "Install Kali Chroot" - "Download Latest"
-* Install the full Chroot Kali package (around 800MB)
-* Wait for Chroot to downlaod/install (this may take a few minutes)
+* Click "Install Kali Chroot" - "Install from sdcard"
+* Select the prefered Chroot Kali package 
+* Wait for Chroot install (this may take a few minutes)
 * Click "Install & Update" - allow Root permission for Nethunter Terminal app
 * Enjoy!
 

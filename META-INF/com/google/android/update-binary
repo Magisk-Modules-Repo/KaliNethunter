@@ -243,6 +243,9 @@ fi;
 
 cp -rf $dev/tmp/$modname/system/etc/ /system/
 
+ui_print "Cleaning Up..."
+rm -rf /data/local/nhsystem/kali*
+
 set_progress 1.0;
 
 ui_print " ";
