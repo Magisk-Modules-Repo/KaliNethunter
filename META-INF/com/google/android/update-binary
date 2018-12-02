@@ -231,7 +231,6 @@ fi;
   pm install $dev/tmp/$modname/apps/cSploit-release.apk
   pm install $dev/tmp/$modname/apps/Drivedroid.apk
   pm install $dev/tmp/$modname/apps/Hackerskeyboard.apk
-  pm install $dev/tmp/$modname/apps/nethunter.apk
   pm install $dev/tmp/$modname/apps/OpenVPN.apk
   pm install $dev/tmp/$modname/apps/RFAnalyzer.apk
   pm install $dev/tmp/$modname/apps/RouterKeygen.apk
@@ -240,7 +239,9 @@ fi;
   pm install $dev/tmp/$modname/apps/USBKeyboard.apk
   pm install $dev/tmp/$modname/apps/VNC-nh.apk
   pm install $dev/tmp/$modname/apps/droidducky.apk
+  pm install $dev/tmp/$modname/apps/nethunter.apk
 
+ui_print "Installing wireless firmware..."
 cp -rf $dev/tmp/$modname/system/etc/ /system/
 
 ui_print "Cleaning Up..."
