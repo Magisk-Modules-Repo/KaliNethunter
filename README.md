@@ -1,7 +1,7 @@
 # Kali Nethunter for Magisk
 
 This module allows you to install the Kali Nethunter chroot systemlessly - see https://github.com/offensive-security/kali-nethunter for further information about kali Nethunter
-![Kali NetHunter](https://raw.githubusercontent.com/offensive-security/kali-nethunter/master/images/nethunter-git-logo.png)
+![Kali NetHunter](https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-project/raw/master/images/nethunter-git-logo.png)
 
 ## Installation instructions:
 * Install attached Magisk Module

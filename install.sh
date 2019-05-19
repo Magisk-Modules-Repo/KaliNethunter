@@ -198,18 +198,8 @@ if [ "$action" == "installation" ]; then
   ui_print "Using architecture: $arch";
 
   find_target;
-  pm install apps/BlueNMEA.apk
-  pm install apps/cSploit.apk
-  pm install apps/Drivedroid.apk
-  pm install apps/Hackerskeyboard.apk
-  pm install apps/OpenVPN.apk
-  pm install apps/RFAnalyzer.apk
-  pm install apps/RouterKeygen.apk
-  pm install apps/Shodan.apk
   pm install apps/Term-nh.apk
-  pm install apps/USBKeyboard.apk
   pm install apps/VNC-nh.apk
-  pm install apps/droidducky.apk
   pm install apps/nethunter.apk
   cp -rf system/etc/ /system/
   mkdir -p $target;
