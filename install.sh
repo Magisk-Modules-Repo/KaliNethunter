@@ -198,9 +198,12 @@ if [ "$action" == "installation" ]; then
   ui_print "Using architecture: $arch";
 
   find_target;
-  pm install apps/Term-nh.apk
-  pm install apps/VNC-nh.apk
-  pm install apps/nethunter.apk
+  pm install apps/NetHunter.apk
+  pm install apps/NetHunterKeX.apk
+  pm install apps/NetHunterStore.apk
+  pm install apps/NetHunterStorePrivilegedExtension.apk
+  pm install apps/NetHunterTerminal.apk
+
   cp -rf system/etc/ /system/
   mkdir -p $target;
   cp -f busybox-$arch $target/busybox;
